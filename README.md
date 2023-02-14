@@ -1,4 +1,4 @@
-# laravel-breeze-web-guard-user-email-otp
+# laravel-breeze-web-guard-user-email-otp2
 Laravel  Breeze Multi-Auth using Web guard
 
 Server Requirements
