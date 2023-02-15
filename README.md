@@ -1,12 +1,12 @@
-# laravel-breeze-web-guard-user-email-otp2
-Laravel  Breeze Multi-Auth using Web guard
+# Overview
+Laravel multiple Admin and User roles authentication using <a href="https://laravel.com/docs/9.x/starter-kits#laravel-breeze" target="_blank">Laravel Breeze</a> Where User roles on login sent OTP to their registered email address. Resend OTP functionality implement after timer expired
 
 Server Requirements
 =====================================
 <ul>
-  <li>PHP Version => 7.4</li>
-  <li>Laravel Version => 8</li>
-  <li>MySQl => 5.7+</li>
+  <li><a href="https://www.php.net/" target="_blank">PHP Version</a> => 7.4 or higher</li>
+  <li><a href="https://laravel.com/docs/master" target="_blank">Laravel Version</a> => 8 or higher</li>
+  <li><a href="https://www.mysql.com/" target="_blank">MySQL Version</a> => 5.7 or higher</li>
 </ul>
 
 Setup Basic Commands
@@ -56,10 +56,8 @@ Project Requirement
       <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
       <li> Password : [ Validation Rules : Accept only valid password min 8 length with alphanumeric, Required ] </li>
       <li> Confirm Password : [ Validation Rules : should be same as Password field, Required ] </li>
-      <li> On Registration button click redirect to Admin dashboard page </li>
-      <li> Use migrations scrpits for tables </li>
-      <li> Generate 5 dummy sample for Admin role using Factory and Seeder </li>
-      <li> Follow PHP/Laravel code standards </li>
+      <li> On Registration button click redirect to Admin dashboard page </li>      
+      <li> Generate 5 dummy sample for Admin role using Factory and Seeder </li>      
       <li> Make Seprate dashboard view ,admin table and Admin model </li>
       <li> <b> Admin Login Fields </b> </li>
       <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
@@ -73,10 +71,8 @@ Project Requirement
           <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>
           <li> Password : [ Validation Rules : Accept only valid password minimum 8 length with alphanumeric, Required ] </li>
           <li> Confirm Password : [ Validation Rules : should be same as Password field, Required ] </li>
-          <li> On Registration button redirect to Login Page with successfull register message </li>                    
-          <li> Use migrations scrpits for tables </li>
-          <li> Generate 5 dummy sample for User role using Factory and Seeder </li>
-          <li> Follow PHP/Laravel code standards </li>
+          <li> On Registration button redirect to Login Page with successfull register message </li>                              
+          <li> Generate 5 dummy sample for User role using Factory and Seeder </li>          
           <li> Make Seprate dashboard view ,user table and User model </li>
           <li> <b> User Login Fields </b> </li>
           <li> Email : [ Validation Rules : Accept only valid email address, Required ] </li>          
